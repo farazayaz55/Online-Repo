@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import MovieLand from "../../img/movieland.PNG";
-import Ecommerce from "../../img/ecommerce.png";
+import farazEcommerce from "../../img/faraz-ecommerce.PNG";
 import Blockly from "../../img/blockly.PNG";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
@@ -27,7 +27,7 @@ const Portfolio = () => {
           <img src={MovieLand} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={farazEcommerce} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />

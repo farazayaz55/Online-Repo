@@ -11,13 +11,14 @@ import "swiper/css/pagination";
 // import profilePic4 from "../../img/profile4.jpg";
 import movieland from "../../img/movieland.PNG";
 import Blockly from "../../img/blockly.PNG";
-
+import farazEcommerce from "../../img/faraz-ecommerce.PNG";
+import MusicApp from "../../img/musicapp.png";
 const Testimonial = () => {
   const clients = [
     {
       img: movieland,
       review:
-        "A movie Land Project in reactJS . displaying all data Using RESt API.",
+        "A movie Land Project in reactJS . displaying all data Using REST API.",
     },
     {
       img: Blockly,
@@ -25,15 +26,14 @@ const Testimonial = () => {
         "Contributed in Open Source Google Project Named Blockly. To help STEAM learning for students under the age of 13-18",
     },
     {
-      img: movieland,
+      img: farazEcommerce,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "A complete MERN Stack e-commerce project with Admin Panel, Images hosting on cloudinary.",
     },
     {
-      img: movieland,
+      img: MusicApp,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
-    },
+        "A music player in MERN Stack. A user can upload music files and can listen to them in the player.."    },
   ];
 
   return (
